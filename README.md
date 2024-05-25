@@ -26,6 +26,8 @@ FastAPI Clean Template - это шаблон проекта на FastAPI, вкл
    ```bash
    pip install -r requirements.txt
 
+4. Переименуйте файл .env-exaple в .env. Заполните его необходимыми данными.
+
 ## Запуск
 После выполнения вышеуказанных шагов, проект будет доступен по адресу http://localhost/
 
