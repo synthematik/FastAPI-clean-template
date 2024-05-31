@@ -7,8 +7,11 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from app.database import Base, DATABASE_URL
+from app.database import Base
+from app.config import settings
 from app.users.models import User
+
+DATABASE_URL = settings.get_database_url()
 
 sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 
